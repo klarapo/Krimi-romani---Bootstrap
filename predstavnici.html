@@ -8,24 +8,26 @@
 
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" media="all" rel="stylesheet">
 
     <title>Krimici</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" style="background-color: #09235e;">
-          <a class="navbar-brand" href="index.html"><i class="fas fa-book"  style="color: white;"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary" style="min-width: 41.5%;height: auto;display: flex;flex-direction: row;justify-content: center;align-content: space-between;align-items: center;">
+        <div class="container">
+          <div class="navbar-brand" href="index.html">
+            <i class="fas fa-book"  style="color: white; padding-left: 20px;"></i>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-2">
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html"  style="color: white;">O krimićima</a>
+                <a class="nav-link active" aria-current="page" href="index.html"  style="color: white;">O krimićima</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="predstavnici.html"  style="color: white;">Predstavnici</a>
+                <a class="nav-link" href="predstavnici.html"  style="color: white;">Predstavnici</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="kontakt.html"  style="color: white;">Kontakt</a>
@@ -33,25 +35,25 @@
             </ul>
           </div>
         </div>
-    </nav>
+      </nav>
 
-    <!-- Header -->
-    <div class="text-center">
-        <img src="./slike/header_predstavnici.png" class="img-fluid" style="width: 100%;">
+      <!-- Header -->
+      <div class="text-center">
+        <img src="./slike/header_predstavnici.png" class="img-fluid" style="min-width: 41.5%; height: auto;">
     </div>
       <!-- Kraj headera -->
 
 
-      <div class="container-fluid">
+      <div class="container">
         
         <div class="row" style="border:none; background:lavender; height:100%;">
             <h2 class="text-center" style="padding-top: 30px;">Predstavnici</h2>
                 
-            <div class="col-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 
                 <img src="./slike/poe.jpg" style="height:400px; margin-left:20px;padding: 40px 0px;" />
             </div>
-            <div class="col-sm-12 col-md-6 col-sm-3">  
+            <div class="col-sm-12 col-md-6 col-lg-6">  
                 <h3 class="text-center" style="padding-top: 30px;">Edgar Allan Poe</h3>
                 <p style="font-size:18px;padding: 20px 40px;">
                     Edgar Allan Poe smatra se ocem kriminalističkog romana kojeg je "rodio" djelom Umorstva u Ulici Morgue. Rođen 19.siječnja 1809. godine kao Edgar Poe, bio je američki pisac, pjesnik, urednik i književni kritičar iz doba američkog romantizma. Poeov opus obiluje romanima, kratkim pričama te pjesmama i smatra se ogromnim doprinosom svjetskoj književnosti, pogotovo u žanru horora i kriminalistike.
@@ -63,7 +65,7 @@
         <div class="row" style="border:none; background:#134880; height:100%;">
                 
             
-            <div class="col-sm-12 col-md-6 col-sm-3">  
+            <div class="col-sm-12 col-md-6 col-lg-6">  
                 <h3 class="text-center" style="padding-top: 30px;color:white;">Sir Arthur Conan Doyle</h3>
                 <p style="font-size:18px;padding: 20px 40px;color:white;">
                     Sir Arthur Conan Doyle je britanski autor kriminalističkih romana, najpoznatiji kao "otac" Sherlocka Holmesa i doktora Watsona. Rođen je 1859. u Edinburghu od roditelja Iraca koji su emigrirali u Škotsku. Ozbiljnije se posvetio književnosti nedugo nakon preseljenja u odmaralište Southsea. Prvo mu je značajnije djelo bilo A Study in Scarlet ("Skica u grimizu") koje je izašlo u Beeton's Christmas Annual 1887. i u kojem se prvi put pojavljuje Sherlock Holmes, stvoren prema profesoru Josephu Bellu.
@@ -71,18 +73,18 @@
                 <a class="btn btn-secondary" href="doyle__more.html" style="margin-left: 40px;margin-bottom: 20px;" role="button">Saznaj više</a>
             </div>
             
-            <div class="col-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <img src="./slike/doyle.png" style="height:400px; margin-right:20px;margin-bottom: 20px;padding: 40px 0px;" />
             </div>
         </div>
 
         <div class="row" style="border:none; background:lavender; height:100%;">
                 
-            <div class="col-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 
                 <img src="./slike/agatha.png" style="height:400px; margin-left:20px;padding: 40px 0px;" />
             </div>
-            <div class="col-sm-12 col-md-6 col-sm-3">  
+            <div class="col-sm-12 col-md-6 col-lg-6">  
                 <h3 class="text-center" style="padding-top: 30px;">Dame Agatha Christie</h3>
                 <p style="font-size:18px;padding: 20px 40px;">
                     Agatha Christie je britanska spisateljica kriminalističkih romana, a pisala je i ljubavne romane pod pseudonimom Mary Westmacott. Nazivana je i "kraljica krimića", a po njoj se dodjeluje i nagrada Agatha - Nagrada za kriminalistički roman. Najpoznatija autorica kriminalističkih romana u svijetu i najprodavaniji autor uz Shakespearea. Njene knjige prodane su u više od milijardu primjeraka na engleskom jeziku, i više od milijardu primjeraka na 45 drugih svjetskih jezika (do 2003). Napisala je preko osamdeset romana i drama, uglavnom detektivskih. U mnogima od njih pojavljuju se njeni najpoznatiji likovi, Hercule Poirot i Miss Marple.
@@ -97,10 +99,9 @@
 
     
 
-      <footer class="bg-light text-center text-lg-start">
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #09235e;">
-            <p style="color: white;">© 2020</p> 
+      <footer class="bg-primary text-lg-start" style="min-width: 41.5%;height: auto;display: block; margin: auto;">
+        <div class="text-center p-3">
+            	<p style="color: white;font-size: 18px;">© 2020</p> 
         </div>
       </footer>
 
