@@ -66,6 +66,8 @@ h1,h2,h3{
     max-width:60%;
     height: auto; 
     padding: 40px 0px;
+    display: block;
+    margin: auto;
 }
 
 blockquote{
