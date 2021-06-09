@@ -62,8 +62,16 @@ h1,h2,h3{
     background:#134880; 
     height:auto;
     width: 100%;
+    padding: 0px 20px;
+}
+.doyle_text{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
+.doyle_btn{
+    margin-left: 1rem;
+}
 .images{
     max-width:60%;
     height: auto; 
@@ -95,6 +103,7 @@ footer{
     width: auto;
 }
 
+
 @media (min-width: 768px) and (max-width: 991.98px){
     .slide{
         height: auto;
@@ -114,5 +123,8 @@ footer{
         width: auto;
         display: block;
         margin: auto;
+    }
+    .btn_align{
+        text-align: center;
     }
   }
