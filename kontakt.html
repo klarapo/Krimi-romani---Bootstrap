@@ -5,17 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Additional meta tags -->
+    <meta property="og:title" content="Krimici kontakt">
+    <meta property="og:description" content="Pitanja o krimi romanima možete proslijediti ispunjavanjem upitnika.">
+    <meta property="og:image" content="https://www.vhv.rs/dpng/d/417-4172108_transparent-contact-icons-png-email-icon-teal-png.png">
+    <meta property="og:url" content="https://www.krimici.com/kontakt.html">
 
+    <meta name="twitter:title" content="Sir Arthur Conan Doyle">
+    <meta name="twitter:description" content="Pitanja o krimi romanima možete proslijediti ispunjavanjem upitnika.">
+    <meta name="twitter:image" content="https://www.vhv.rs/dpng/d/417-4172108_transparent-contact-icons-png-email-icon-teal-png.png">
+    <meta name="twitter:card" content="krimi_contact_form">
 
     <!-- Regular CSS -->
     <link rel="stylesheet" href="./style.css"  type="text/css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" media="all" >
 
-    <title>Krimici</title>
+    <title>Krimici kontakt</title>
+    <meta name="description" 
+      content="Pitanja o krimi romanima možete proslijediti ispunjavanjem upitnika.">
+  
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <div class="logo">
           <a class="navbar-brand" href="./index.html"><i class="fas fa-book icon"></i></a>
@@ -53,21 +65,21 @@
               <h1 class="text-center">Kontakt</h1>
             </div>
             <div class="row">
-              <div class="mb-3">                    
+              <div class="mb-3 col-md-6 mx-auto">                    
                 <label for="exampleFormControlInput1" class="form-label">Ime</label>
                 <input class="form-control" type="text">
                 <label for="exampleFormControlInput1" class="form-label">Prezime</label>
                 <input class="form-control" type="text">
                 <label for="exampleFormControlInput1" class="form-label">Email addresa</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1">
-              </div>
-              <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Upit</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
           </div>
-              <button type="submit" class="btn btn-secondary mb-4">Pošalji</button>
+          <div class="col-md-6 mx-auto btn_align">
+            <button type="submit" class="btn btn-secondary mb-4 mx-auto">Pošalji</button>
+          </div>
         </div>
       </section>
       
